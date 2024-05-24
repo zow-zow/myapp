@@ -222,8 +222,8 @@
       "filterable": 0, 
       "ext": "./lib/毒蛇影视.json", 
       "jar": "./lib/XBPQ.jar"      
-    },{ "key": "Ikanbot", "name": "爱看机器人", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.aikanbot.com$$$proxy"},
-		{"key":"XBPQ_黑狐影院","name":"黑狐影院|XBPQ","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
+    },{ "key": "Ikanbot", "name": "3Z|影视爱", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.aikanbot.com$$$proxy"},
+		{"key":"XBPQ_黑狐影院","name":"3Z|影视黑狐","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
 			"ext": {
 				"站名": "黑狐影院",
 				"主页url": "http://fagmn.com",
@@ -348,7 +348,7 @@
                 "分类": "电影&剧集&综艺&动漫&少儿&短剧",
                 "分类值": "dianying&lianxuju&zongyi&dongman&shaoer&duanju"
             }
-        },{"key":"Yinfans","name":"音范丝|磁力","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"},
+        },{"key":"Yinfans","name":"3Z|影视音","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"},
 		{
 			"key": "河马",
 			"name": "3Z|影视河",
@@ -382,8 +382,8 @@
 			"changeable": 1,
 			"ext": "./lib/jianpian.json$$$1",
 			"timeout":60
-		},{ "key": "ppvod", "name": "泡泡┃切片", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": { "分类": "国产剧$14#欧美剧$15#日韩剧$62#港台剧$16#国产动漫$75#日韩动漫$76#欧美动漫$77#剧情$37#动作$23#恐怖$36", "分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}", "导演": "vod_director\"*\"&&\"", "主演": "vod_actor\"*\"&&\"", "简介": "vod_content\"*\"&&\"", "数组": "{&&}", "图片": "vod_pic\":\"&&\"", "标题": "vod_name\":\"&&\"", "副标题": "+vod_remarks\":\"&&\"", "线路数组": "\"vod_play_from\":&&,[替换:dplayer>>宝盒专享]", "线路标题": "\"&&\"", "播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]", "播放列表": "表&&表", "播放标题": "题&&题", "播放链接": "链&&链", "播放请求头": "Referer$https://www.sxbfxk.com/", "链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,", "搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}", "嗅探词": ".m3u8" } },
-{"key":"短剧tv","name":"宝盒|短剧1","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
+		},{ "key": "ppvod", "name": "3Z|影视泡", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": { "分类": "国产剧$14#欧美剧$15#日韩剧$62#港台剧$16#国产动漫$75#日韩动漫$76#欧美动漫$77#剧情$37#动作$23#恐怖$36", "分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}", "导演": "vod_director\"*\"&&\"", "主演": "vod_actor\"*\"&&\"", "简介": "vod_content\"*\"&&\"", "数组": "{&&}", "图片": "vod_pic\":\"&&\"", "标题": "vod_name\":\"&&\"", "副标题": "+vod_remarks\":\"&&\"", "线路数组": "\"vod_play_from\":&&,[替换:dplayer>>宝盒专享]", "线路标题": "\"&&\"", "播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]", "播放列表": "表&&表", "播放标题": "题&&题", "播放链接": "链&&链", "播放请求头": "Referer$https://www.sxbfxk.com/", "链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,", "搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}", "嗅探词": ".m3u8" } },
+{"key":"短剧tv","name":"3Z|影视短剧","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
       "ext":{
         "搜索链接":"http://www.duanjutv.cc/vodsearch/{wd}----------{pg}---.html",
         "线路标题":"<h3*>&&</h3>",
@@ -395,7 +395,7 @@
       }
     },  {
       "key": "csp_Nmys",
-      "name": "3Z|影视短剧",
+      "name": "3Z|影视短剧2",
       "type": 3,
       "api": "csp_XBPQ", 
    "jar":"./lib/XBPQ.jar",
@@ -403,7 +403,18 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "./lib/mrdj.json"
-    },   {"key":"高清网",
+    },   
+	{
+		"key": "短剧",
+		"name": "3Z|影视短剧3",
+		"type": 3,
+		"api": "csp_Duanju",
+		"searchable": 0,
+		"changeable": 1,
+		"ext":"https://www.duanjutv.icu"
+	},
+	
+	{"key":"高清网",
       "name":"3Z|影视宝磁",
       "type":3,
       "api":"csp_XBPQ",
@@ -950,15 +961,7 @@
 			"searchable": 1,
 			"changeable": 0
 		},
-		{
-			"key": "短剧",
-			"name": "短剧",
-			"type": 3,
-			"api": "csp_Duanju",
-			"searchable": 0,
-			"changeable": 1,
-			"ext":"https://www.duanjutv.icu"
-		},
+
 		{"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"./lib/alist.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alist.json"},
 		{
 			"key":"MV_vod",
